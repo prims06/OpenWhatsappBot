@@ -218,6 +218,18 @@
       "desc": "Convert photo/video to sticker",
       "reply_required": "❌ Please reply to a photo or video (max 10 seconds)."
     },
+    "truthdare": {
+      "desc": "Truth or Dare game to spice up evenings (couples/friends)",
+      "usage": "*Truth or Dare (AV)*\n\n.av - Random truth or dare\n.av truth - Ask a truth question\n.av dare - Give a dare\n.av mode get - View current mode\n.av mode <mild|flirty|romantic|adult> - Change mode (admin/group owner)\n.av on|off - Enable or disable in this chat\n\n*Modes:* mild, flirty, romantic, adult",
+      "disabled": "❌ Truth or Dare is disabled for this chat.",
+      "mode_status": "*Truth or Dare - Current mode:* {0}",
+      "mode_changed": "✅ Truth or Dare mode changed to: {0}",
+      "mode_updated": "✅ Truth or Dare settings updated: {0}",
+      "mode_invalid": "❌ Invalid mode. Use: mild|flirty|romantic|adult",
+      "adult_requires_admin": "⛔ Enabling 'adult' mode requires being a group admin or sudo for safety.",
+      "truth": "Truth",
+      "dare": "Dare"
+    },
     "tag": {
       "desc": "Tag all members in the group"
     },
@@ -315,8 +327,31 @@
       "location_not_found": "❌ Location not found.",
       "error": "❌ Weather error: {0}"
     },
+    "save": {
+      "desc": "Save status to your inbox",
+      "reply_required": "❌ Please reply to a status to save it.",
+      "no_message": "❌ No message found to save.",
+      "no_media": "❌ No media found in this status.",
+      "no_sudo": "❌ SUDO not configured. Please add SUDO in config.env.",
+      "download_failed": "❌ Failed to download media.",
+      "saved": "✅ Status saved to your inbox!",
+      "status_from": "Status from",
+      "error": "❌ Error: {0}"
+    },
     "common": {
-      "not_admin": "❌ Bot must be admin to perform this action."
+      "not_admin": "❌ Bot must be admin to perform this action.",
+      "status_enabled": "✅ Enabled",
+      "status_disabled": "❌ Disabled"
+    },
+    "socialdl": {
+      "desc": "Download media from Instagram, YouTube, TikTok, Spotify, Facebook, Pinterest",
+      "usage": "*Social Media Downloader*\n\n.dl <url> - Auto-detect and download\n\n*Supported platforms:*\n• Instagram (posts, reels, stories)\n• YouTube (video/audio)\n• TikTok\n• Spotify\n• Facebook\n• Pinterest\n\n*YouTube options:*\n.dl <url> audio - Download audio only\n.dl <url> 720p - Specify quality (240p, 360p, 480p, 720p, 1080p)",
+      "invalid_url": "❌ Please provide a valid URL.",
+      "unsupported": "❌ Unsupported platform. Supported: Instagram, YouTube, TikTok, Spotify, Facebook, Pinterest",
+      "downloading": "⏳ Downloading from *{0}*...",
+      "failed": "❌ Download failed. The content may be private or unavailable.",
+      "success": "✅ Downloaded from *{0}*",
+      "error": "❌ Error: {0}"
     }
   },
   "extra": {

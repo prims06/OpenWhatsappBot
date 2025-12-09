@@ -218,6 +218,18 @@
       "desc": "Convertir photo/vidéo en sticker",
       "reply_required": "❌ Veuillez répondre à une photo ou vidéo (max 10 secondes)."
     },
+    "truthdare": {
+      "desc": "Action ou Vérité pour pimenter les soirées en couple/amis",
+      "usage": "*Action ou Vérité (AV)*\n\n.av - Lancer une action ou vérité aléatoire\n.av truth - Pose une question ‘Vérité’\n.av dare - Lance un défi ‘Action’\n.av mode get - Voir le mode actuel\n.av mode <mild|flirty|romantic|adult> - Changer le mode (admin/group owner)\n.av on|off - Activer ou désactiver pour le chat\n\n*Modes:* mild, flirty, romantic, adult",
+      "disabled": "❌ Action ou Vérité est désactivé pour ce chat.",
+      "mode_status": "*Action ou Vérité - Mode actuel:* {0}",
+      "mode_changed": "✅ Mode Action ou Vérité changé en: {0}",
+      "mode_updated": "✅ Paramètres Action ou Vérité mis à jour: {0}",
+      "mode_invalid": "❌ Mode invalide. Utilisez: mild|flirty|romantic|adult",
+      "adult_requires_admin": "⛔ Activer le mode 'adult' requiert d'être admin du groupe ou sudo pour des raisons de sécurité.",
+      "truth": "Vérité",
+      "dare": "Action"
+    },
     "tag": {
       "desc": "Mentionner tous les membres du groupe"
     },
@@ -315,8 +327,31 @@
       "location_not_found": "❌ Localisation non trouvée.",
       "error": "❌ Erreur météo: {0}"
     },
+    "save": {
+      "desc": "Sauvegarder un statut dans votre boîte de réception",
+      "reply_required": "❌ Veuillez répondre à un statut pour le sauvegarder.",
+      "no_message": "❌ Aucun message trouvé à sauvegarder.",
+      "no_media": "❌ Aucun média trouvé dans ce statut.",
+      "no_sudo": "❌ SUDO non configuré. Veuillez ajouter SUDO dans config.env.",
+      "download_failed": "❌ Échec du téléchargement du média.",
+      "saved": "✅ Statut sauvegardé dans votre boîte de réception!",
+      "status_from": "Statut de",
+      "error": "❌ Erreur: {0}"
+    },
     "common": {
-      "not_admin": "❌ Le bot doit être administrateur pour effectuer cette action."
+      "not_admin": "❌ Le bot doit être administrateur pour effectuer cette action.",
+      "status_enabled": "✅ Activé",
+      "status_disabled": "❌ Désactivé"
+    },
+    "socialdl": {
+      "desc": "Télécharger des médias depuis Instagram, YouTube, TikTok, Spotify, Facebook, Pinterest",
+      "usage": "*Téléchargeur de Réseaux Sociaux*\n\n.dl <url> - Détection auto et téléchargement\n\n*Plateformes supportées:*\n• Instagram (posts, reels, stories)\n• YouTube (vidéo/audio)\n• TikTok\n• Spotify\n• Facebook\n• Pinterest\n\n*Options YouTube:*\n.dl <url> audio - Télécharger uniquement l'audio\n.dl <url> 720p - Spécifier la qualité (240p, 360p, 480p, 720p, 1080p)",
+      "invalid_url": "❌ Veuillez fournir une URL valide.",
+      "unsupported": "❌ Plateforme non supportée. Supportées: Instagram, YouTube, TikTok, Spotify, Facebook, Pinterest",
+      "downloading": "⏳ Téléchargement depuis *{0}*...",
+      "failed": "❌ Échec du téléchargement. Le contenu est peut-être privé ou indisponible.",
+      "success": "✅ Téléchargé depuis *{0}*",
+      "error": "❌ Erreur: {0}"
     }
   },
   "extra": {

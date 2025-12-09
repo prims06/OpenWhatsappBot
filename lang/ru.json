@@ -315,8 +315,31 @@
       "location_not_found": "❌ Location not found.",
       "error": "❌ Weather error: {0}"
     },
+    "save": {
+      "desc": "Сохранить статус во входящие",
+      "reply_required": "❌ Пожалуйста, ответьте на статус, чтобы сохранить его.",
+      "no_message": "❌ Сообщение для сохранения не найдено.",
+      "no_media": "❌ Медиа не найдено в этом статусе.",
+      "no_sudo": "❌ SUDO не настроен. Пожалуйста, добавьте SUDO в config.env.",
+      "download_failed": "❌ Не удалось загрузить медиа.",
+      "saved": "✅ Статус сохранён во входящие!",
+      "status_from": "Статус от",
+      "error": "❌ Ошибка: {0}"
+    },
     "common": {
-      "not_admin": "❌ Bot must be admin to perform this action."
+      "not_admin": "❌ Bot must be admin to perform this action.",
+      "status_enabled": "✅ Включено",
+      "status_disabled": "❌ Отключено"
+    },
+    "socialdl": {
+      "desc": "Скачать медиа из Instagram, YouTube, TikTok, Spotify, Facebook, Pinterest",
+      "usage": "*Загрузчик социальных сетей*\n\n.dl <url> - Автоопределение и загрузка\n\n*Поддерживаемые платформы:*\n• Instagram (посты, reels, stories)\n• YouTube (видео/аудио)\n• TikTok\n• Spotify\n• Facebook\n• Pinterest\n\n*Опции YouTube:*\n.dl <url> audio - Загрузить только аудио\n.dl <url> 720p - Указать качество (240p, 360p, 480p, 720p, 1080p)",
+      "invalid_url": "❌ Пожалуйста, укажите действительный URL.",
+      "unsupported": "❌ Неподдерживаемая платформа. Поддерживаются: Instagram, YouTube, TikTok, Spotify, Facebook, Pinterest",
+      "downloading": "⏳ Загрузка с *{0}*...",
+      "failed": "❌ Загрузка не удалась. Контент может быть приватным или недоступным.",
+      "success": "✅ Загружено с *{0}*",
+      "error": "❌ Ошибка: {0}"
     }
   },
   "extra": {

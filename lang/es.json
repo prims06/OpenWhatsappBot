@@ -315,8 +315,29 @@
       "location_not_found": "❌ Location not found.",
       "error": "❌ Weather error: {0}"
     },
+    "save": {
+      "desc": "Guardar estado en tu bandeja de entrada",
+      "reply_required": "❌ Por favor responde a un estado para guardarlo.",
+      "no_message": "❌ No se encontró ningún mensaje para guardar.",
+      "no_media": "❌ No se encontró ningún medio en este estado.",
+      "no_sudo": "❌ SUDO no configurado. Por favor añade SUDO en config.env.",
+      "download_failed": "❌ Error al descargar el medio.",
+      "saved": "✅ ¡Estado guardado en tu bandeja de entrada!",
+      "status_from": "Estado de",
+      "error": "❌ Error: {0}"
+    },
     "common": {
       "not_admin": "❌ Bot must be admin to perform this action."
+    },
+    "socialdl": {
+      "desc": "Descargar medios de Instagram, YouTube, TikTok, Spotify, Facebook, Pinterest",
+      "usage": "*Descargador de Redes Sociales*\n\n.dl <url> - Detección automática y descarga\n\n*Plataformas soportadas:*\n• Instagram (posts, reels, stories)\n• YouTube (video/audio)\n• TikTok\n• Spotify\n• Facebook\n• Pinterest\n\n*Opciones de YouTube:*\n.dl <url> audio - Descargar solo audio\n.dl <url> 720p - Especificar calidad (240p, 360p, 480p, 720p, 1080p)",
+      "invalid_url": "❌ Por favor proporcione una URL válida.",
+      "unsupported": "❌ Plataforma no soportada. Soportadas: Instagram, YouTube, TikTok, Spotify, Facebook, Pinterest",
+      "downloading": "⏳ Descargando desde *{0}*...",
+      "failed": "❌ Descarga fallida. El contenido puede ser privado o no disponible.",
+      "success": "✅ Descargado desde *{0}*",
+      "error": "❌ Error: {0}"
     }
   },
   "extra": {

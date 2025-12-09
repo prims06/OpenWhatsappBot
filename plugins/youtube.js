@@ -7,7 +7,7 @@ module.exports = {
   command: {
     pattern: "ytdl|ytv|yta|yts",
     desc: getLang("plugins.video.desc"),
-    type: "download",
+    type: "downloader",
   },
 
   async execute(message, query) {
@@ -15,6 +15,7 @@ module.exports = {
       const command = message.body
         .split(" ")[0]
         .replace(require("../config").PREFIX, "")
+        .trim()
         .toLowerCase();
 
       if (command === "yts") {
