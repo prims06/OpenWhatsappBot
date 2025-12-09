@@ -6,6 +6,7 @@
   "scripts": {
     "start": "pm2 start . --attach --name open-whatsapp-bot",
     "dev": "node index.js",
+    "prod": "pm2 start ecosystem.config.js --env production",
     "docker": "pm2-runtime start . --name open-whatsapp-bot",
     "stop": "pm2 stop open-whatsapp-bot",
     "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || yarn add --ignore-engines sharp@0.33.5"
@@ -17,8 +18,9 @@
     "@google/genai": "^1.27.0",
     "@google/generative-ai": "^0.21.0",
     "@hapi/boom": "^10.0.1",
+    "@rodrigogs/baileys-store": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.1",
-    "@whiskeysockets/baileys": "^6.7.9",
+    "@whiskeysockets/baileys": "7.0.0-rc.9",
     "audio-decode": "^2.2.2",
     "axios": "^1.7.9",
     "browser-id3-writer": "^4.4.0",

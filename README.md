@@ -384,3 +384,116 @@ MIT License - see LICENSE file
 
 **Note**: This is an unofficial WhatsApp bot. Use responsibly and in accordance with WhatsApp's Terms of Service.
 
+╭━━━『 OPEN WHATSAPP BOT 』━━━
+│
+│ Version: 5.0.0
+│ Prefix: .
+│ Commands: 56
+│
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 ADMIN 』━━━
+│ .filter|addfilter
+│ .delfilter|stopfilter|removefilter
+│ .goodbye|setgoodbye
+│ .welcome|setwelcome
+│ .warn
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 GENERAL 』━━━
+│ .afk
+│ .alive
+│ .help
+│ .menu
+│ .ping
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 WHATSAPP 』━━━
+│ .antidel|antidelete
+│ .getantidel|getantidelete
+│ .getvv
+│ .setvv
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 DOWNLOADER 』━━━
+│ .apk
+│ .insta|igdl
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 SETTINGS 』━━━
+│ .autorespond|ar
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 OWNER 』━━━
+│ .ban
+│ .eval|exec
+│ .unban
+│ .update
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 AI 』━━━
+│ .gpt
+│ .gemini|gem
+│ .imagine|imagen
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 MEDIA 』━━━
+│ .convert|topng|tojpg|topdf|tomp3
+│ .image|img|gif|giphy
+│ .music|song|spotify|lyrics|play
+│ .sticker|s
+│ .transcribe|totext|tts|speak
+│ .vv|viewonce
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 UTILITY 』━━━
+│ .delcmd
+│ .fancy
+│ .getcmd
+│ .notify|alert|watch
+│ .pdf
+│ .setcmd
+│ .task|todo|reminder|remind
+│ .translate|tr|tl
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 GROUP 』━━━
+│ .demote
+│ .kick
+│ .poll|vote|survey
+│ .promote
+│ .stats|analytics|groupstats
+│ .tag|tagall
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 FUN 』━━━
+│ .fact
+│ .joke
+│ .quiz|guess
+│ .quote
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 SEARCH 』━━━
+│ .lyrics
+│ .pinterest|pin
+│ .reddit
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 INFO 』━━━
+│ .news|crypto|stock|bitcoin
+│ .weather|meteo
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 UTILS 』━━━
+│ .qr
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 CONVERTER 』━━━
+│ .tts
+╰━━━━━━━━━━━━━━━━━━━
+
+╭━━━『 DOWNLOAD 』━━━
+│ .ytdl|ytv|yta|yts
+╰━━━━━━━━━━━━━━━━━━━
+
+Type .help <command> for detailed help
