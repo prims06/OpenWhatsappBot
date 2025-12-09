@@ -386,17 +386,17 @@ MIT License - see LICENSE file
 
 ╭━━━『 OPEN WHATSAPP BOT 』━━━
 │
-│ Version: 5.0.0
+│ Version: 59.0.0
 │ Prefix: .
-│ Commands: 56
+│ Commands: 60
 │
 ╰━━━━━━━━━━━━━━━━━━━
 
 ╭━━━『 ADMIN 』━━━
-│ .filter|addfilter
-│ .delfilter|stopfilter|removefilter
-│ .goodbye|setgoodbye
-│ .welcome|setwelcome
+│ .filter
+│ .delfilter
+│ .goodbye
+│ .welcome
 │ .warn
 ╰━━━━━━━━━━━━━━━━━━━
 
@@ -409,60 +409,63 @@ MIT License - see LICENSE file
 ╰━━━━━━━━━━━━━━━━━━━
 
 ╭━━━『 WHATSAPP 』━━━
-│ .antidel|antidelete
-│ .getantidel|getantidelete
+│ .antidelete
+│ .getantidelete
 │ .getvv
 │ .setvv
 ╰━━━━━━━━━━━━━━━━━━━
 
 ╭━━━『 DOWNLOADER 』━━━
 │ .apk
-│ .insta|igdl
+│ .insta
+│ .dl|socialdl|sdl
+│ .ytdl|ytv|yta|yts
 ╰━━━━━━━━━━━━━━━━━━━
 
-╭━━━『 SETTINGS 』━━━
-│ .autorespond|ar
+╭━━━『 AI 』━━━
+│ .ar
+│ .gpt
+│ .gemini
+│ .imagen
 ╰━━━━━━━━━━━━━━━━━━━
 
 ╭━━━『 OWNER 』━━━
 │ .ban
-│ .eval|exec
+│ .exec
 │ .unban
 │ .update
-╰━━━━━━━━━━━━━━━━━━━
-
-╭━━━『 AI 』━━━
-│ .gpt
-│ .gemini|gem
-│ .imagine|imagen
 ╰━━━━━━━━━━━━━━━━━━━
 
 ╭━━━『 MEDIA 』━━━
 │ .convert|topng|tojpg|topdf|tomp3
 │ .image|img|gif|giphy
 │ .music|song|spotify|lyrics|play
-│ .sticker|s
-│ .transcribe|totext|tts|speak
-│ .vv|viewonce
+│ .save
+│ .sticker
+│ .transcribe|speak
+│ .vv
 ╰━━━━━━━━━━━━━━━━━━━
 
 ╭━━━『 UTILITY 』━━━
 │ .delcmd
+│ .exportcontacts
 │ .fancy
 │ .getcmd
-│ .notify|alert|watch
+│ .notify
 │ .pdf
+│ .qr
 │ .setcmd
-│ .task|todo|reminder|remind
-│ .translate|tr|tl
+│ .task
+│ .trt
+│ .tts
 ╰━━━━━━━━━━━━━━━━━━━
 
 ╭━━━『 GROUP 』━━━
 │ .demote
 │ .kick
-│ .poll|vote|survey
+│ .vote
 │ .promote
-│ .stats|analytics|groupstats
+│ .stats
 │ .tag|tagall
 ╰━━━━━━━━━━━━━━━━━━━
 
@@ -471,29 +474,18 @@ MIT License - see LICENSE file
 │ .joke
 │ .quiz|guess
 │ .quote
+│ .av
 ╰━━━━━━━━━━━━━━━━━━━
 
 ╭━━━『 SEARCH 』━━━
 │ .lyrics
-│ .pinterest|pin
+│ .pinterest
 │ .reddit
 ╰━━━━━━━━━━━━━━━━━━━
 
 ╭━━━『 INFO 』━━━
-│ .news|crypto|stock|bitcoin
+│ .news|crypto|stock
 │ .weather|meteo
-╰━━━━━━━━━━━━━━━━━━━
-
-╭━━━『 UTILS 』━━━
-│ .qr
-╰━━━━━━━━━━━━━━━━━━━
-
-╭━━━『 CONVERTER 』━━━
-│ .tts
-╰━━━━━━━━━━━━━━━━━━━
-
-╭━━━『 DOWNLOAD 』━━━
-│ .ytdl|ytv|yta|yts
 ╰━━━━━━━━━━━━━━━━━━━
 
 Type .help <command> for detailed help

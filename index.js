@@ -91,7 +91,6 @@ async function processMessage(msg, client) {
 
     // Cache message for anti-delete functionality (non-blocking)
     setImmediate(() => antiDeleteHandler.cacheMessage(message));
-
     // Handle view-once messages first (before any other processing)
     const viewOnceHandled = await viewOnceHandler.handleMessage(message);
     if (viewOnceHandled) {
