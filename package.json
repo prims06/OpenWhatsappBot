@@ -3,7 +3,6 @@
   "version": "59.0.0",
   "description": "Open Source Community WhatsApp Bot with Baileys",
   "main": "index.js",
-  "type": "commonjs",
   "scripts": {
     "start": "pm2 start . --attach --name open-whatsapp-bot",
     "dev": "node index.js",
